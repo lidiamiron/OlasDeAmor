@@ -189,3 +189,8 @@ ul li {
   flex-direction: row;
   justify-content: space-around;
 }
+
+ul a {
+  text-decoration: none;
+  color: #d9d9da;
+}

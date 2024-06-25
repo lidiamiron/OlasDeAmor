@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olas de Amor</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="menu-btns">
+        <button id="abrir" class="abrir-menu displayMenu">
+          <i class="bi bi-list"></i>
+        </button>
+        <button id="cerrar" class="cerrar-menu"><i class="bi bi-x"></i></button>
+      </div>
+      <nav id="nav" class="nav">
+        <ul class="nav-list">
+          <li onclick="scrollToLocation('#fotos')">Fotos</li>
+          <li onclick="scrollToLocation('#precio')">Precio</li>
+          <li onclick="scrollToLocation('#sobre-nosotros')">Sobre nosotros</li>
+          <li onclick="scrollToLocation('#contacto')">Contacto</li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--carousel-->
+    <div class="carousel">
+      <!--list item -->
+      <div class="list">
+        <div class="item">
+          <img src="./IMG/pexels-soulseeker-1589818.jpg" />
+          <div class="content">
+            <div class="author">OLAS DE AMOR</div>
+            <div class="title">FOTOGRAFÍA</div>
+            <div class="topic">EVENTOS</div>
+            <div class="des">
+              Somos más que fotógrafos; somos narradores de historias,
+              guardianes de recuerdos y artistas comprometidos con la creación
+              de imágenes que perduren para siempre. Desde bodas llenas de
+              romance hasta bautizos repletos de alegría, nos especializamos en
+              inmortalizar los momentos más preciosos de la vida. Cada evento es
+              único, y nuestro enfoque personalizado garantiza que cada imagen
+              cuente una historia auténtica y conmovedora. Nos esforzamos por
+              capturar la esencia de cada evento, buscando esos momentos
+              espontáneos y emotivos que hacen que las fotografías cobren vida.
+            </div>
+            <div class="buttons">
+              <button>VER MÁS</button>
+              <button>PRESUPUESTO</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel">
+        <!--list item -->
+        <div class="list">
+          <div class="item">
+            <img src="./IMG/pexels-trung-nguyen-1603884.jpg" />
+            <div class="content">
+              <div class="author">OLAS DE AMOR</div>
+              <div class="title">FOTOGRAFÍA</div>
+              <div class="topic">EVENTOS</div>
+              <div class="des">
+                Somos más que fotógrafos; somos narradores de historias,
+                guardianes de recuerdos y artistas comprometidos con la creación
+                de imágenes que perduren para siempre. Desde bodas llenas de
+                romance hasta bautizos repletos de alegría, nos especializamos
+                en inmortalizar los momentos más preciosos de la vida. Cada
+                evento es único, y nuestro enfoque personalizado garantiza que
+                cada imagen cuente una historia auténtica y conmovedora. Nos
+                esforzamos por capturar la esencia de cada evento, buscando esos
+                momentos espontáneos y emotivos que hacen que las fotografías
+                cobren vida.
+              </div>
+              <div class="buttons">
+                <button>VER MÁS</button>
+                <button>PRESUPUESTO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--list item -->
+        <div class="list">
+          <div class="item">
+            <img src="./IMG/pexels-trung-nguyen-1630860.jpg" />
+            <div class="content">
+              <div class="author">OLAS DE AMOR</div>
+              <div class="title">FOTOGRAFÍA</div>
+              <div class="topic">EVENTOS</div>
+              <div class="des">
+                Somos más que fotógrafos; somos narradores de historias,
+                guardianes de recuerdos y artistas comprometidos con la creación
+                de imágenes que perduren para siempre. Desde bodas llenas de
+                romance hasta bautizos repletos de alegría, nos especializamos
+                en inmortalizar los momentos más preciosos de la vida. Cada
+                evento es único, y nuestro enfoque personalizado garantiza que
+                cada imagen cuente una historia auténtica y conmovedora. Nos
+                esforzamos por capturar la esencia de cada evento, buscando esos
+                momentos espontáneos y emotivos que hacen que las fotografías
+                cobren vida.
+              </div>
+              <div class="buttons">
+                <button>VER MÁS</button>
+                <button>PRESUPUESTO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--list item -->
+        <div class="list">
+          <div class="item">
+            <img src="./IMG/pexels-trung-nguyen-2959192.jpg" />
+            <div class="content">
+              <div class="author">OLAS DE AMOR</div>
+              <div class="title">FOTOGRAFÍA</div>
+              <div class="topic">EVENTOS</div>
+              <div class="des">
+                Somos más que fotógrafos; somos narradores de historias,
+                guardianes de recuerdos y artistas comprometidos con la creación
+                de imágenes que perduren para siempre. Desde bodas llenas de
+                romance hasta bautizos repletos de alegría, nos especializamos
+                en inmortalizar los momentos más preciosos de la vida. Cada
+                evento es único, y nuestro enfoque personalizado garantiza que
+                cada imagen cuente una historia auténtica y conmovedora. Nos
+                esforzamos por capturar la esencia de cada evento, buscando esos
+                momentos espontáneos y emotivos que hacen que las fotografías
+                cobren vida.
+              </div>
+              <div class="buttons">
+                <button>VER MÁS</button>
+                <button>PRESUPUESTO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--list item -->
+        <div class="list">
+          <div class="item">
+            <img src="./IMG/_MG_0601.jpg" />
+            <div class="content">
+              <div class="author">OLAS DE AMOR</div>
+              <div class="title">FOTOGRAFÍA</div>
+              <div class="topic">EVENTOS</div>
+              <div class="des">
+                Somos más que fotógrafos; somos narradores de historias,
+                guardianes de recuerdos y artistas comprometidos con la creación
+                de imágenes que perduren para siempre. Desde bodas llenas de
+                romance hasta bautizos repletos de alegría, nos especializamos
+                en inmortalizar los momentos más preciosos de la vida. Cada
+                evento es único, y nuestro enfoque personalizado garantiza que
+                cada imagen cuente una historia auténtica y conmovedora. Nos
+                esforzamos por capturar la esencia de cada evento, buscando esos
+                momentos espontáneos y emotivos que hacen que las fotografías
+                cobren vida.
+              </div>
+              <div class="buttons">
+                <button>VER MÁS</button>
+                <button>PRESUPUESTO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section class="container">
+        <div class="wrapper">
+          <section class="about mt-5">
+            <div>
+              <h2>CAPTURANDO LA ESENCIA DE LA VIDA EN CADA IMAGEN.</h2>
+              <p>
+                En OLAS DE AMOR, entendemos la importancia de la confianza y la
+                conexión con nuestros clientes. Nos comprometemos a trabajar
+                estrechamente con ustedes para comprender sus visiones y
+                expectativas, asegurándonos de que cada detalle sea capturado
+                con precisión y belleza. Nuestra misión es simple: crear
+                recuerdos atemporales que puedan ser apreciados durante
+                generaciones. Estamos honrados de ser parte de sus momentos más
+                preciados y nos comprometemos a superar sus expectativas en cada
+                disparo. Confíen en nosotros para transformar sus eventos en
+                recuerdos que perdurarán toda la vida.
+              </p>
+            </div>
+          </section>
+
+          <section class="packs mt-5">
+            <div>
+                <div class="paquetes mt-5">
+                  <div class="paquetes-boda mt-3">
+                    <h3 class="mt-5">FOTOGRAFÍA DE BODA</h3>
+                    <p>
+                      ¡Captura los momentos más especiales de tu gran día con
+                      nuestros exclusivos paquetes de fotografía de boda! Ofrecemos
+                      diversas sesiones para asegurarnos de que cada instante
+                      inolvidable quede inmortalizado.
+                    </p>
+    
+                    <div class="paquete-pre mt-5">
+                      <h4>1. Sesión Preboda (Before Wedding Session)</h4>
+                      <p>
+                        Perfecta para capturar la emoción y el amor antes de la boda. Esta sesión incluye:
+                        <ul>
+                          <li>2 horas de sesión fotográfica en una ubicación a elegir.</li>
+                          <li>30 fotos digitales editadas.</li>
+                          <li>Galería privada en línea.</li>
+                          <li>Precio: €300</li>
+                        </ul>
+                      </p>
+                    </div>
+                    <div class="paquete-boda mt-3">
+                      <h4>2. Día de la Boda (Wedding Day Session)</h4>
+                      <p>
+                        Nuestro paquete más completo para el día de tu boda, asegurando que no se pierda ningún detalle. Incluye:
+                        <ul>
+                          <li>Cobertura completa desde los preparativos hasta la fiesta (10 horas).</li>
+                          <li>200 fotos digitales editadas.</li>
+                          <li>Galería privada en línea.</li>
+                          <li>Álbum fotográfico de 30 páginas.</li>
+                          <li>Precio: €1500</li>
+                        </ul>
+                      </p>
+                    </div>
+                    <div class="paquete-after mt-3">
+                      <h4>3. Sesión Postboda (After Wedding Session)</h4>
+                      <p>
+                        Ideal para capturar momentos relajados y románticos después de la boda, sin la presión del gran día. Esta sesión incluye:
+                        <ul>
+                          <li>2 horas de sesión fotográfica en una ubicación a elegir.</li>
+                          <li>30 fotos digitales editadas.</li>
+                          <li>Galería privada en línea.</li>
+                          <li>Precio: €1500</li>
+                        </ul>
+                      </p>
+                    </div>
+                    <div class="paquete-full mt-3">
+                      <h4>Paquete Completo (Before + Wedding Day + After Wedding)</h4>
+                      <p>
+                        Para una experiencia fotográfica completa, cubriendo todos los momentos importantes de tu boda. Incluye:
+                        <ul>
+                          <li>Sesión Preboda (2 horas, 30 fotos digitales editadas).</li>
+                          <li>Cobertura completa del Día de la Boda (10 horas, 200 fotos digitales editadas).</li>
+                          <li>Sesión Postboda (2 horas, 30 fotos digitales editadas).</li>
+                          <li>Álbum fotográfico de 50 páginas.</li>
+                          <li>Galería privada en línea.</li>
+                          <li>Precio: €2000</li>
+                        </ul>
+                      </p>
+                    </div>
+                    
+                <div
+                  id="carouselExampleSlidesOnly"
+                  class="carousel-main slide mt-3"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="./IMG/joel-overbeck-fGPGd9PFd3w-unsplash.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./IMG/nathan-dumlao-5BB_atDT4oA-unsplash.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./IMG/samantha-gades-odt2t81dZtQ-unsplash.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./IMG/sammie-chaffin-chhdIbuvgsg-unsplash.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div> 
+              </div>
+
+              <div>
+                <div class="paquetes-parejas mt-3">
+                  <h3 class="mt-5">FOTOGRAFÍA DE PAREJAS</h3>
+                  <p>
+                    ¡Celebra tu amor con nuestras exclusivas sesiones de fotografía para parejas! Ofrecemos diversas opciones para capturar la magia y la conexión entre ustedes en cada etapa de su relación.
+
+
+                  </p>
+  
+                  <div class="paquete-romantica mt-5">
+                    <h4>1. Sesión Romántica (Romantic Session)</h4>
+                    <p>
+                      Perfecta para capturar la esencia de su amor en un entorno especial. Esta sesión incluye:
+                      <ul>
+                        <li>2 horas de sesión fotográfica en una ubicación a elegir.</li>
+                        <li>30 fotos digitales editadas.</li>
+                        <li>Galería privada en línea.</li>
+                        <li>Precio: €250</li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div class="paquete-boda mt-3">
+                    <h4>2. Sesión de Aniversario (Anniversary Session)</h4>
+                    <p>
+                      Celebra su aniversario con una sesión especial que capture los momentos únicos de su amor a lo largo del tiempo. Incluye:
+                      <ul>
+                        <li>2 horas de sesión fotográfica en una ubicación a elegir.
+                        </li>
+                        <li>40 fotos digitales editadas.
+                        </li>
+                        <li>Galería privada en línea.</li>
+                        
+                        <li>Precio: €300</li>
+                      </ul>
+                    </p>
+                  </div>
+                 
+                <div
+                  id="carouselExampleSlidesOnly"
+                  class="carousel-main slide mt-3"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="./IMG/parejas/nathan-mcbride-YLkBly2HVHY-unsplash.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./IMG/parejas/pablo-heimplatz-OSboZGvoEz4-unsplash.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./IMG/parejas/sept-commercial-EnrusDZBZBc-unsplash.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./IMG/parejas/travis-grossen--CaJIE1MiA4-unsplash.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          
+                <div>
+                  <div class="paquetes-parejas mt-3">
+                    <h3 class="mt-5">FOTOGRAFÍA DE BAUTIZOS</h3>
+                    <p>
+                      ¡Inmortaliza el hermoso momento del bautizo de tu bebé con nuestras exclusivas sesiones de fotografía! Ofrecemos diversas opciones para capturar cada detalle y emoción de este día tan especial.
+                    </p>
+    
+                    <div class="paquete-romantica mt-5">
+                      <h4>Día del Bautizo (Baptism Day Session)</h4>
+                      <p>
+                        Nuestro paquete más completo para el día del bautizo, asegurando que no se pierda ningún detalle. Incluye:
+                        <ul>
+                          <li>Cobertura completa desde la ceremonia hasta la recepción (5 horas).
+                          </li>
+                          <li>100 fotos digitales editadas.</li>
+                          <li>Álbum fotográfico de 20 páginas.</li>
+                          <li>Galería privada en línea.</li>
+                          <LI>Precio: €800</LI>
+                        </ul>
+                      </p>
+                    </div>
+                    
+                <div
+                  id="carouselExampleSlidesOnly"
+                  class="carousel-main slide mt-3"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="./IMG/baby/isaac-quesada-dZYI4ga2eUA-unsplash.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./IMG/baby/mindy-olson-p-EL5IhM6x9qo-unsplash.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./IMG/baby/omar-lopez-vTknj2OxDVg-unsplash.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./IMG/baby/zach-lucero-fwjsBPbRm4g-unsplash.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <hr class="mt-5"/>
+      <div class="container f-section">
+      <div class="f-nav">
+        <ul>
+          <h5>Nav</h5>
+        <li>About me</li>
+        <li>Galery</li>
+        <li>Pricing</li>
+        <li>Contact</li>
+        </ul>
+      </div>
+      <div class="socials">
+        <ul>
+          <h5>Social Media</h5>
+          <a href="http://github.com/lidiamiron">
+            <li><i class="icon bi bi-github light me-3"></i>github.com/lidiamiron</li>
+          </a>
+          <a href="http://linkedin.com/lidiamiron">
+            <li><i class="icon bi bi-linkedin light me-3"></i>linkedin.com/lidiamiron</li>
+          </a>
+          <a href="http://behance.net/lidiamiron">
+            <li><i class="icon bi bi-behance light me-3"></i>behance.net/lidiamiron</li>
+          </a>
+        </ul>
+      </div>
+      <div class="f-contact">
+        
+        <ul> 
+          <H5>Contact me</H5>
+          <a href="#">
+          <li ><i class="icon bi bi-envelope-fill light me-3"></i>lidiamirion@gmail.com</li>
+        </a>
+        <a href="">
+          <li> <i class="icon bi bi-telephone-fill light me-3"></i> +34 642 300 236 </li>
+        </a>
+        <a href="">
+          <li><i class="icon bi bi-geo-alt-fill light me-3"></i>Barcelona, Spain</li>
+        </a></ul>
+      </div>
+    </div>
+    </footer>
+  
+  </body>
+  <script src="index.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+</html>

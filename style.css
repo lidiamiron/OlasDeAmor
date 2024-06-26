@@ -194,3 +194,36 @@ ul a {
   text-decoration: none;
   color: #d9d9da;
 }
+
+h4 {
+  color: #ffc76c;
+}
+
+.container {
+  width: 1140px;
+  max-width: 80%;
+}
+
+h5 {
+  color: aquamarine;
+}
+
+.icon {
+  color: #ffc76c;
+}
+
+.card {
+  background-color: #181513 !important;
+  padding: 20px;
+  border: none;
+}
+
+.card-text {
+  color: white;
+}
+
+.bi-circle-half {
+  color: aquamarine;
+  margin-right: 8px;
+  font-size: 12px;
+}

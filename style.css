@@ -211,11 +211,45 @@ h5 {
 .icon {
   color: #ffc76c;
 }
+.bodas-carousel .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100%;
+  margin: 0 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.bodas-carousel .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.slick-slide {
+  padding: 10px;
+}
+
+.bodas-carousel .card {
+  height: 100%; /* Establece una altura fija para todas las tarjetas */
+  display: flex;
+  flex-direction: column;
+}
+
+.bodas-carousel .card-body {
+  flex-grow: 1; /* Permite que el contenido crezca para llenar el espacio disponible */
+}
 
 .card {
   background-color: #181513 !important;
   padding: 20px;
   border: none;
+}
+.slick-custom-arrow::before {
+  color: #ffffff !important;
 }
 
 .card-text {

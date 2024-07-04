@@ -31,8 +31,12 @@ setInterval(changeCarouselImage, 8000);
 // Llama a la función una vez para iniciar el carrusel
 changeCarouselImage();
 
+//Menu Hamburgesa
+const nav = document.querySelector("#nav");
 const abrir = document.querySelector("#abrir");
 const cerrar = document.querySelector("#cerrar");
+const body = document.querySelector("body");
+
 abrir.addEventListener("click", () => {
   nav.classList.add("visible");
   abrir.classList.remove("displayMenu");
@@ -46,8 +50,7 @@ cerrar.addEventListener("click", () => {
   cerrar.classList.remove("displayMenu");
   body.classList.remove("stop-scrolling");
 });
-
-function scrollToLocation(location) {
+function scrollToContact(location) {
   document.querySelector(location).scrollIntoView({
     behavior: "smooth",
   });
@@ -91,3 +94,11 @@ $(document).ready(function () {
     ],
   });
 });
+
+// Scroll to location
+
+//function scrollToContact(location) {
+//document.querySelector(location).scrollIntoView({
+//behavior: "smooth",
+//});
+//}

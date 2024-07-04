@@ -7,6 +7,10 @@ body {
   color: #eee;
   font-size: 13px;
 }
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
 
 .abrir-menu,
 .cerrar-menu {
@@ -195,10 +199,6 @@ ul a {
   color: #d9d9da;
 }
 
-h4 {
-  color: #ffc76c;
-}
-
 .container {
   width: 1140px;
   max-width: 80%;
@@ -257,7 +257,243 @@ h5 {
 }
 
 .bi-circle-half {
-  color: aquamarine;
+  color: #ffc76c;
   margin-right: 8px;
   font-size: 12px;
+}
+
+.form {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+
+  margin-top: 70px;
+}
+
+.fullName,
+.place {
+  width: 440px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px !important;
+}
+
+.btn-form {
+  background-color: aquamarine;
+  color: #181513;
+  border: rgb(49, 193, 145);
+}
+
+.btn-form:hover {
+  background-color: #ffc76c;
+
+  color: #181513;
+  border: rgb(200, 160, 16);
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-top: 30px;
+}
+
+.fTitle {
+  width: 500px;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: flex-start;
+  align-content: center !important;
+  margin-top: 70px;
+  font-size: 130px;
+  font-weight: 600;
+}
+
+.f-nav ul li {
+  padding-bottom: 0;
+}
+.socials ul li {
+  padding-bottom: 0;
+}
+
+.f-contact ul li {
+  padding-bottom: 0;
+}
+@media only screen and (max-width: 1300px) {
+  .fTitle {
+    width: 400px;
+
+    font-size: 100px;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  .fTitle {
+    width: 300px;
+
+    font-size: 80px;
+    font-weight: 600;
+  }
+  .form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+
+    margin-top: 40px;
+  }
+
+  .fullName,
+  .place {
+    width: 340px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 20px;
+  }
+  .carousel .list .item .content {
+    padding-right: 0%;
+  }
+  .carousel .list .item:nth-child(1) .topic,
+  .carousel .list .item:nth-child(1) .title {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .menu-btns {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+
+    width: 100%;
+  }
+
+  .displayMenu {
+    display: block;
+    border: 0;
+    font-size: 2rem;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .abrir-menu,
+  .cerrar-menu {
+    color: white;
+  }
+
+  .nav {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    height: 100vh;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+  }
+  .nav.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  nav ul {
+    padding: 40px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-color: #ffc76c;
+  }
+  nav ul li:hover {
+    background-color: #fcb84c;
+  }
+  nav ul li {
+    color: #181513;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .fullName,
+  .place {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .carousel .list .item:nth-child(1) .topic,
+  .carousel .list .item:nth-child(1) .title {
+    font-size: 40px;
+  }
+  .carousel .list .item .content button,
+  .carousel .list .item .content button:nth-child(2) {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .carousel .list .item:nth-child(1) .topic,
+  .carousel .list .item:nth-child(1) .title {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .form {
+    width: 300px;
+  }
+  .fullName,
+  .place {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px !important;
+  }
+
+  .fTitle {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .carousel .list .item:nth-child(1) .topic,
+  .carousel .list .item:nth-child(1) .title {
+    font-size: 20px;
+  }
+  .carousel .list .item:nth-child(1) .author {
+    font-size: 10px;
+  }
+  .carousel .list .item .content button {
+    width: 100px;
+    height: 30px;
+  }
+  .carousel .list .item .content button:nth-child(2) {
+    width: 100px;
+    height: 30px;
+  }
+  .des {
+    font-size: 12px;
+  }
 }

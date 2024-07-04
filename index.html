@@ -39,10 +39,11 @@
       </div>
       <nav id="nav" class="nav">
         <ul class="nav-list">
-          <li onclick="scrollToLocation('#fotos')">Fotos</li>
-          <li onclick="scrollToLocation('#precio')">Precio</li>
-          <li onclick="scrollToLocation('#sobre-nosotros')">Sobre nosotros</li>
-          <li onclick="scrollToLocation('#contacto')">Contacto</li>
+          <li onclick="scrollToContact('#about')">Sobre nosotros</li>
+          <li onclick="scrollToContact('#bodas')">Fotografia de bodas</li>
+          <li onclick="scrollToContact('#parejas')">Fotografia de parejas</li>
+          <li onclick="scrollToContact('#bautizos')">Fotografia bautizos</li>
+          <li onclick="scrollToContact('#contacto')">Contacto</li>
         </ul>
       </nav>
     </header>
@@ -70,7 +71,7 @@
             </div>
             <div class="buttons">
               <button>VER MÁS</button>
-              <button>PRESUPUESTO</button>
+              <button> Escribenos</button>
             </div>
           </div>
         </div>
@@ -99,7 +100,7 @@
               </div>
               <div class="buttons">
                 <button>VER MÁS</button>
-                <button>PRESUPUESTO</button>
+                <button> Escribenos</button>
               </div>
             </div>
           </div>
@@ -108,7 +109,7 @@
         <!--list item -->
         <div class="list">
           <div class="item">
-            <img src="./IMG/pexels-trung-nguyen-1630860.jpg" />
+            <img src="./IMG/parejas/pexels-alaxmatias-20873010.jpg" />
             <div class="content">
               <div class="author">OLAS DE AMOR</div>
               <div class="title">FOTOGRAFÍA</div>
@@ -127,7 +128,7 @@
               </div>
               <div class="buttons">
                 <button>VER MÁS</button>
-                <button>PRESUPUESTO</button>
+                <button> Escribenos</button>
               </div>
             </div>
           </div>
@@ -136,7 +137,7 @@
         <!--list item -->
         <div class="list">
           <div class="item">
-            <img src="./IMG/pexels-trung-nguyen-2959192.jpg" />
+            <img src="./IMG/parejas/pexels-alaxmatias-20873015.jpg" />
             <div class="content">
               <div class="author">OLAS DE AMOR</div>
               <div class="title">FOTOGRAFÍA</div>
@@ -155,7 +156,7 @@
               </div>
               <div class="buttons">
                 <button>VER MÁS</button>
-                <button>PRESUPUESTO</button>
+                <button> Escribenos</button>
               </div>
             </div>
           </div>
@@ -164,7 +165,7 @@
         <!--list item -->
         <div class="list">
           <div class="item">
-            <img src="./IMG/_MG_0601.jpg" />
+            <img src="./IMG/parejas/pexels-weddingphotography-1444442 (1).jpg" />
             <div class="content">
               <div class="author">OLAS DE AMOR</div>
               <div class="title">FOTOGRAFÍA</div>
@@ -183,7 +184,7 @@
               </div>
               <div class="buttons">
                 <button>VER MÁS</button>
-                <button>PRESUPUESTO</button>
+                <button> Escribenos</button>
               </div>
             </div>
           </div>
@@ -193,7 +194,7 @@
     <main>
       <section class="container">
         <div class="wrapper">
-          <section class="about mt-5">
+          <section id="about" class="about mt-5">
             <div>
               <h2>CAPTURANDO LA ESENCIA DE LA VIDA EN CADA IMAGEN.</h2>
               <p>
@@ -223,10 +224,10 @@
                       inolvidable quede inmortalizado.
                     </p>
     
-                    <div class="bodas-carousel">
+                    <div  id="bodas" class="bodas-carousel">
                       <div class="card border-0 align-items-center" style="width: 25rem;">
                         <div class="card-body d-flex flex-column  flex-grow-1">
-                          <h4>1. Sesión Preboda</h4>
+                          <h5>Sesión Preboda</h5>
                               <p class="card-text ">Perfecta para capturar la emoción y el amor antes de la boda. Esta sesión incluye:</p>
                               <ul>
                                 <li><i class="bi bi-circle-half"></i>2 horas de sesión fotográfica en una ubicación a elegir.</li>
@@ -239,7 +240,7 @@
                       <div class="card border-0 align-items-center" style="width: 25rem;">
                         
                         <div class="card-body d-flex flex-column justify-content-center flex-grow-1 ">
-                          <h4>2. Día de la Boda</h4>
+                          <h5>Día de la Boda</h5>
                           <p class="card-text">Nuestro paquete más completo para el día de tu boda, asegurando que no se pierda ningún detalle. Incluye:</p>
                           <ul>
                             <li><i class="bi bi-circle-half"></i>Cobertura completa desde los preparativos hasta la fiesta (10 horas).</li>
@@ -253,7 +254,7 @@
                       <div class="card border-0 align-items-center" style="width: 25rem;">
                         
                         <div class="card-body d-flex flex-column justify-content-center flex-grow-1 ">
-                          <h4>3. Sesión Postboda</h4>
+                          <h5>Sesión Postboda</h5>
                               <p class="card-text"> Ideal para capturar momentos relajados y románticos después de la boda, sin la presión del gran día. Esta sesión incluye:</p>
                               <ul>
                                 <li><i class="bi bi-circle-half"></i>2 horas de sesión fotográfica en una ubicación a elegir.</li>
@@ -266,7 +267,7 @@
                       <div class="card border-0 align-items-center" style="width: 25rem;">
                        
                         <div class="card-body d-flex flex-column justify-content-center flex-grow-1 ">
-                          <h4>Paquete Completo</h4>
+                          <h5>Paquete Completo</h5>
                               <p class="card-text"> Para una experiencia fotográfica completa, cubriendo todos los momentos importantes de tu boda. Incluye:</p>
                               <ul>
                                 <li><i class="bi bi-circle-half"></i>Sesión Preboda (2 horas, 30 fotos digitales editadas).</li>
@@ -320,7 +321,7 @@
               
 
               <div>
-                <div class="paquetes-parejas mt-5">
+                <div id="parejas" class="paquetes-parejas mt-5">
                   <h3 class="mt-5">FOTOGRAFÍA DE PAREJAS</h3>
                   <p>
                     ¡Celebra tu amor con nuestras exclusivas sesiones de fotografía para parejas! Ofrecemos diversas opciones para capturar la magia y la conexión entre ustedes en cada etapa de su relación.
@@ -330,7 +331,7 @@
                     <div class="col-sm-6 mb-3 mb-sm-0">
                       <div class="card">
                         <div class="card-body">
-                          <h4>1. Sesión Romántica (Romantic Session)</h4>
+                          <h5>Sesión Romántica</h5>
                           <p class="card-text "> Perfecta para capturar la esencia de su amor en un entorno especial. Esta sesión incluye:</p>
                           <ul>
                             <li><i class="bi bi-circle-half"></i>2 horas de sesión fotográfica en una ubicación a elegir.</li>
@@ -344,7 +345,7 @@
                     <div class="col-sm-6">
                       <div class="card">
                         <div class="card-body">
-                          <h4>2. Sesión de Aniversario (Anniversary Session)</h4>
+                          <h5>Sesión de Aniversario</h5>
                           <p class="card-text">Celebra su aniversario con una sesión especial que capture los momentos únicos de su amor a lo largo del tiempo. Incluye:</p>
                           <ul>
                             <li><i class="bi bi-circle-half"></i>2 horas de sesión fotográfica en una ubicación a elegir.
@@ -401,14 +402,14 @@
 
           
                 <div>
-                  <div class="paquetes-parejas mt-3">
+                  <div id="bautizos" class="paquetes-parejas mt-3">
                     <h3 class="mt-5">FOTOGRAFÍA DE BAUTIZOS</h3>
                     <p>
                       ¡Inmortaliza el hermoso momento del bautizo de tu bebé con nuestras exclusivas sesiones de fotografía! Ofrecemos diversas opciones para capturar cada detalle y emoción de este día tan especial.
                     </p>
     
                     <div class="paquete-romantica mt-5">
-                      <h4>Día del Bautizo (Baptism Day Session)</h4>
+                      <h5>Día del Bautizo</h5>
                       <p>
                         Nuestro paquete más completo para el día del bautizo, asegurando que no se pierda ningún detalle. Incluye:
                         <ul>
@@ -462,9 +463,54 @@
             </div>
           </section>
         </div>
+
+        
+        <section class="contactForm ">
+          <h2 class="fTitle">Reserva tu día</h2>
+          <div class="form">
+          <div class="fullName">
+          <div class="col-md-6">
+            <label for="inputFirstName" class="form-label mt-2">Nombre</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="col-md-6">
+            <label for="inputLastName" class="form-label mt-2">Apellido</label>
+            <input type="text" class="form-control" id="lastName">
+          </div>
+        </div>
+          <div class="col-md-12">
+            <label for="inputEmail4" class="form-label mt-2">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+         
+          <div class="col-12">
+            <label for="inputAddress" class="form-label mt-2">Dirreccion</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          
+          <div class="place">
+          <div class="col-md-6  ">
+            <label for="inputState" class="form-label mt-2  ">Provincia</label>
+            <input type="text" class="form-control" id="inputState">
+          </div>
+          <div class="col-md-6">
+            <label for="inputZip" class="form-label mt-2">Codigo Postal</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+        </div>
+        
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label mt-2">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-form mt-2 btn-primary">Enviar</button>
+        </div>
+        </section>
       </section>
+      
     </main>
     <footer>
+      
       <hr class="mt-5"/>
       <div class="container f-section mt-5">
       <div class="f-nav">
@@ -491,7 +537,6 @@
         </ul>
       </div>
       <div class="f-contact">
-        
         <ul> 
           <H5>Contact me</H5>
           <a href="#">
@@ -506,17 +551,17 @@
       </div>
     </div>
     </footer>
-  
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Slick JS -->
+    <script src="node_modules/slick-carousel/slick/slick.min.js"></script>
+      <script src="./index.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+      ></script>
   </body>
-  <script src="node_modules/jquery/dist/jquery.min.js"></script>
-<!-- Slick JS -->
-<script src="node_modules/slick-carousel/slick/slick.min.js"></script>
-  <script src="./index.js"></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"
-  ></script>
+  
   
  
 </html>
